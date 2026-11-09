@@ -1,6 +1,6 @@
-123 SPIN — SAME INSTALLATION APPROACH AS C-WAGS TRACKER
+012 SPIN — SAME INSTALLATION APPROACH AS C-WAGS TRACKER
 
-1. Create a new GitHub repository for this app, for example 123-spin.
+1. Create a new GitHub repository for this app, for example 012-spin.
 2. Upload the CONTENTS of this folder into its root: index.html, app.js,
    style.css, sw.js, manifest.webmanifest, icons folder and .nojekyll.
 3. In repository Settings > Pages, select Deploy from a branch, main,
@@ -14,7 +14,7 @@ Opening index.html as a downloaded file previews the spinner but cannot
 install the app. Installation requires an HTTPS hosted link.
 
 Every spin finishes within about one second (immediate if reduced motion is
-enabled). Every result uses 1, 2, and 3 once. Repeating the previous order is
+enabled). Every result uses 0, 1, and 2 once. Repeating the previous order is
 possible. No account, advertising, analytics or external libraries.
 
 When changing app files, increment the CACHE version in sw.js, and upload
