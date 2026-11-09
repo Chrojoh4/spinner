@@ -1,5 +1,5 @@
 'use strict';
-const CACHE = '123-spin-v1';
+const CACHE = '012-spin-v1';
 const FILES = ['./', './index.html', './style.css', './app.js', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)).then(() => self.skipWaiting()));
