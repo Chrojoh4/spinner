@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "123 Spin",
-  "short_name": "123 Spin",
-  "description": "A quick slot machine shuffle of 1, 2 and 3. Each number used once.",
+  "name": "012 Spin",
+  "short_name": "012 Spin",
+  "description": "A quick slot machine shuffle of 0, 1 and 2. Each number used once.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
