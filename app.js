@@ -2,7 +2,7 @@
 const spinButton = document.querySelector('#spin');
 const resultLabel = document.querySelector('#result');
 const reels = [...document.querySelectorAll('.reel')];
-const permutations = [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]];
+const permutations = [[1,2,0],[1,0,2],[2,1,0],[2,0,1],[0,1,2],[0,2,1]];
 
 function randomOrder() {
   // Reject the incomplete group at the top of the uint32 range to avoid modulo bias.
